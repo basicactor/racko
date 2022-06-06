@@ -22,4 +22,5 @@ export default defineNuxtConfig({
   // publicRuntimeConfig: {
   //   GAPI_KEY: process.env.GAPI_KEY,,
   // },
+  plugins: ["~/plugins/aws-amplify"],
 });

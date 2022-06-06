@@ -7,6 +7,8 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
+    "@aws-amplify/cli": "^8.3.1",
+    "aws-amplify": "^4.3.24",
     "daisyui": "^2.15.2",
     "nuxt": "3.0.0-rc.3",
     "sass": "^1.52.1",
