@@ -4,6 +4,9 @@ import { defineNuxtConfig } from "nuxt";
 export default defineNuxtConfig({
   ssr: true,
   css: ["@/assets/styles/tailwind.css"],
+  typescript: {
+    strict: true,
+  },
   build: {
     postcss: {
       postcssOptions: {
